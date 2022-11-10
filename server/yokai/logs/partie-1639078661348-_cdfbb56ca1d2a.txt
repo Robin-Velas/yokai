@@ -1,0 +1,34 @@
+There is jkl (sex:F, ip:::ffff:127.0.0.1)
+There is okjn (sex:F, ip:::ffff:127.0.0.1)
+okjn a peur des fantômes.
+There is jkl (sex:F, ip:::ffff:127.0.0.1)
+There is okjn (sex:F, ip:::ffff:127.0.0.1)
+jkl a peur des fantômes.
+jkl <= commence son tour
+jkl <= 3,g
+jkl <= 8,g
+jkl <= 4,W,5
+jkl <= u
+jkl <= a terminé son tour
+okjn <= commence son tour
+okjn <= 2,r
+okjn <= 7,p
+okjn <= 7,E,12
+okjn <= u
+okjn <= a terminé son tour
+jkl <= commence son tour
+jkl <= 6,p
+jkl <= 5,r
+jkl <= 6,W,13
+jkl <= u
+jkl <= a terminé son tour
+okjn <= commence son tour
+okjn <= 4,b
+okjn <= 1,b
+okjn <= 4,E,5
+okjn <= gbp,4
+okjn <= a terminé son tour
+jkl <= commence son tour
+jkl <= 11,b
+jkl <= 2,r
+jkl <= 11,N,1

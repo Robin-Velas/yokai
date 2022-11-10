@@ -1,0 +1,36 @@
+There is oki (sex:F, ip:::ffff:127.0.0.1)
+There is ok (sex:F, ip:::ffff:127.0.0.1)
+Le move est 1
+oki <= commence son tour
+oki <= 1,r
+oki <= 2,g
+oki <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+oki <= 3,N,2
+oki <= u
+oki <= a terminé son tour
+Le move est 1
+ok <= commence son tour
+ok <= 1,r
+ok <= 5,g
+ok <= La carte doit être déplacée à coté d’une autre carte.
+ok <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+ok <= 3,W,4
+ok <= u
+ok <= a terminé son tour
+Le move est 2
+oki <= commence son tour
+oki <= 1,r
+oki <= 2,g
+oki <= 5,N,3
+oki <= rgp,1
+oki <= a terminé son tour
+Le move est 2
+ok <= commence son tour
+ok <= Les cartes sous un indice ne peuvent plus être retournées ou déplacées.
+ok <= 2,g
+ok <= 6,g
+ok <= 5,W,6
+ok <= r,2
+ok <= a terminé son tour
+Le move est 2
+oki <= commence son tour

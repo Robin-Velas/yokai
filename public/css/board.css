@@ -1,0 +1,171 @@
+@import url("constants.css");
+
+table{
+    border-collapse: inherit;
+    border-spacing: .2vh;
+    --scale-factor: 1;
+
+    transform-origin: top left;
+    transform: scale(var(--scale-factor));
+    transition: transform .2s ease ;
+
+    --moved-x : 0;
+    --moved-y : 0;
+
+    /**
+     URL TO REVEAL
+     */
+    --secret-url : "";
+    --r-url: url("../images/R.jpg");
+    --g-url: url("../images/G.jpg");
+    --b-url: url("../images/B.jpg");
+    --p-url: url("../images/P.jpg");
+    --u-url: url("../images/HU.jpg");
+
+}
+
+table > tr > td{
+    height:2vh;
+    width:2vh;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    image-rendering: pixelated;
+    border-radius: 10%;
+}
+
+
+
+table > tr > td:before,
+table > tr > td:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-size: cover;
+    border-radius: 10%;
+    z-index: -1;
+}
+
+
+table > tr > td.card:not(.hint):before {
+    background-image: url("../images/U.jpg");
+}
+
+table > tr > td:after {
+    background: var(--secret-url);
+    background-size: cover;
+    -webkit-background-size: cover;
+    transform: rotateY(180deg);
+}
+
+table > tr > td.flip {
+    z-index: 30;
+    transform: rotateY(180deg);
+}
+
+
+table.expect-click {
+    cursor: not-allowed;
+}
+
+table.expect-click > tr > td.accessible {
+    cursor: pointer;
+}
+
+table.expect-click > tr > td.hint.accessible:before,
+table.expect-click > tr > td.card.accessible:before {
+    box-shadow: inset 0 0 0 .033vh rgba(0, 128, 0, .5)
+}
+
+table.expect-click > tr > td.card:not(.accessible) {
+    opacity: .5;
+}
+
+table.expect-click > tr > td:not(.card):not(.hint).accessible {
+    box-shadow: rgba(0, 0, 0, 0.03) 0 0 0 calc(.05vh);
+    background-size: cover !important;
+    background: url(../images/icons/green.png);
+    image-rendering: auto;
+}
+
+table.expect-click > tr:first-child > td:first-child.accessible {
+    box-shadow: rgba(0, 0, 0, 0.03) 0 0 0 calc(.05vh);
+    background-size: cover !important;
+    background: url(../images/icons/red.png);
+    image-rendering: auto;
+}
+
+
+table > tr > td.card.moved-card {
+    z-index: 60;
+    animation: moved-card 3s linear;
+}
+
+@keyframes moved-card {
+    0% {
+        transform: scale(1) translateX(var(--moved-x)) translateY(var(--moved-y));
+    }
+    50% {
+        transform: scale(1.45) translateX(calc(0.55 * var(--moved-x))) translateY(calc(0.55 * var(--moved-y)));
+        box-shadow: 0 0 calc(.2vh) calc(.3vh) rgba(0, 0, 0, 0.55);
+    }
+    100%{
+        transform: scale(1) translateX(0) translateY(0);
+    }
+}
+
+
+
+
+
+
+
+table > tr > td.hu:before {
+    background-image: url("../images/HU.jpg");
+    outline : .2vh outset rgba(0,0,0,.2);
+}
+
+.hr:before, .hg:before, .hb:before, .hp:before, .hrg:before,
+.hrb:before, .hg:before, .hrp:before, .hrgb:before, .hrgp:before, .hrbp:before, .hgbp:before {
+    outline : .2vh outset rgba(0,0,0,.2);
+}
+.hr:before { background-image: url("../images/hints/hr.png"); }
+.hg:before { background-image: url("../images/hints/hg.png"); }
+.hb:before { background-image: url("../images/hints/hb.png"); }
+.hp:before { background-image: url("../images/hints/hp.png"); }
+.hrg:before { background-image: url("../images/hints/hgr.png"); }
+.hrb:before { background-image: url("../images/hints/hbr.png"); }
+.hrp:before { background-image: url("../images/hints/hrp.png"); }
+.hgb:before { background-image: url("../images/hints/hgb.png"); }
+.hgp:before { background-image: url("../images/hints/hgp.png"); }
+.hbp:before { background-image: url("../images/hints/hpb.png"); }
+.hrgb:before { background-image: url("../images/hints/hgbr.png"); }
+.hrgp:before { background-image: url("../images/hints/hgpr.png"); }
+.hrbp:before { background-image: url("../images/hints/hpbr.png"); }
+.hgbp:before { background-image: url("../images/hints/hgpb.png"); }
+
+
+
+table > tr > td.hint.moved-hint {
+    z-index: 500;
+    animation: moved-hint 3s linear;
+}
+
+@keyframes moved-hint {
+    0% {
+        transform: scale(calc(1/var(--scale-factor))) translateX(0) translateY(0);
+    }/*
+    50% {
+        box-shadow: 0 0 calc(.2vh) calc(.3vh) rgba(0, 0, 0, 0.55);
+    }*/
+    100%{
+        transform: scale(calc(1/var(--scale-factor))) translateX(var(--moved-x)) translateY(var(--moved-y));
+    }
+}
+
+

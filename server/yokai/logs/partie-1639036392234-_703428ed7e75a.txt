@@ -1,0 +1,17 @@
+There is lol (sex:F, ip:::ffff:127.0.0.1)
+There is kkk (sex:F, ip:::ffff:127.0.0.1)
+kkk a peur des fantômes.
+There is kkk (sex:F, ip:::ffff:127.0.0.1)
+There is lol (sex:F, ip:::ffff:127.0.0.1)
+lol a peur des fantômes.
+kkk <= commence son tour
+kkk <= 1,b
+kkk <= 2,g
+kkk <= 1,W,5
+kkk <= u
+kkk <= a terminé son tour
+lol <= commence son tour
+lol <= 5,g
+lol <= 6,g
+lol <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+lol <= 1,W,2

@@ -1,0 +1,21 @@
+There is A (sex:F, ip:::ffff:127.0.0.1)
+There is B (sex:F, ip:::ffff:127.0.0.1)
+A a peur des fantômes.
+Le move est 1 et 1
+A <= commence son tour
+A <= 1,b
+A <= 2,g
+A <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+A <= 1,N,3
+A <= u
+A <= a terminé son tour
+Le move est 1 et 1
+B <= commence son tour
+B <= 3,r
+B <= 4,b
+B <= 1,W,2
+B <= u
+B <= a terminé son tour
+Le move est 1 et 1
+A <= commence son tour
+A <= 1,b

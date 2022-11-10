@@ -1,0 +1,9 @@
+There is ghj (sex:F, ip:::ffff:127.0.0.1)
+There is oij (sex:F, ip:::ffff:127.0.0.1)
+oij a peur des fantômes.
+There is oij (sex:F, ip:::ffff:127.0.0.1)
+There is ghj (sex:F, ip:::ffff:127.0.0.1)
+oij <= commence son tour
+oij <= 6,g
+oij <= 3,g
+oij <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.

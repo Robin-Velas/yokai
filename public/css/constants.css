@@ -1,0 +1,29 @@
+:root{
+    --a: #8ce68c;
+    --b: #abf1bc;
+    --c: #cffff6;
+    --d: #aee7f8;
+    --e: #87cdf6;
+    --A: #731973;
+    --B: #540e43;
+    --C: #300009;
+    --D: #511807;
+    --E: #783209;
+    --jane: firebrick;
+    --jon: darkblue;
+}
+
+:root.dark{
+    --A: #8ce68c;
+    --B: #abf1bc;
+    --C: #cffff6;
+    --D: #aee7f8;
+    --E: #87cdf6;
+    --a: #731973;
+    --b: #540e43;
+    --c: #300009;
+    --d: #511807;
+    --e: #783209;
+    --jane: lightpink;
+    --jon: lightblue;
+}

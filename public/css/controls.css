@@ -1,0 +1,26 @@
+@import url("constants.css");
+
+/*source https://codepen.io/giana/pen/BZaGyP*/
+
+#controls {
+    margin: 4% 4% 4% 4%;
+}
+
+.button_class {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 2% 2% 2% 2%;
+    padding: 2% 2% 2% 2%;
+
+    color: #000000;
+    transition: 0.25s;
+}
+
+.button_class:hover, .button_class:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #3b3b3b;
+    transform: translateY(-0.25em);
+    border-color: #000000;
+    color : #3d3d3d;
+}

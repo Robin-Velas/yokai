@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Yōkai en ligne — Jeu L3-Info</title>
+    <meta name="description" content="Yōkai, un Mini Projet de Web avancé en L3-Info.">
+    <meta name="keywords" content="UBFC, UFR ST, Université de Franche-Comté, UFR Sciences, Informatique">
+    <meta name="author" content="Robin + Michel">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/inputs.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/controls.css">
+    <link rel="stylesheet" href="css/players.css">
+    <link rel="stylesheet" href="css/chrono.css">
+    <link rel="stylesheet" href="css/logs.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div id="auth">
+    <form>
+        <h2>Yōkai en Réseau</h2>
+        <div>
+            <p>Yōkai est un jeu de cartes coopératif que nous proposons en <a target="_blank" href="./apis/yokai/stats">réseau</a>.
+                Voir les <a id=auth_rules target="_blank">règles du jeu</a>.</p>
+            <p>
+                <label>
+                    <input maxlength="15" autocomplete="off" autofocus type="text" placeholder="Identifiant" id="auth_id">
+                </label>
+            </p>
+            <p id="auth_sex">
+                <label>Fille<input checked name="auth_sex" type="radio" value="F"></label>
+                <label>Garçon<input name="auth_sex" type="radio" value="M"></label>
+            </p>
+            <p>
+                <label>
+                    <select id="auth_mode">
+                        <option value="2">Je souhaite faire une partie à 2 joueurs</option>
+                        <option value="3">Je souhaite faire une partie à 3 joueurs</option>
+                        <option value="4">Je souhaite faire une partie à 4 joueurs</option>
+                    </select>
+                </label>
+                <span id="auth_ajax"></span>
+            </p>
+            <hr>
+            <div id="auth_type">
+                <p>
+                    <label>Recherche de groupe<input checked name="auth_type" type="radio" value="public"></label>
+                    <label>Partie privée<input name="auth_type" type="radio" value="private"></label>
+                </p>
+                <p>
+                    <label>
+                        <input maxlength="30" autocomplete="off" type="text" placeholder="Nom de la partie"
+                               id="auth_namespace">
+                    </label>
+                </p>
+            </div>
+            <hr>
+            <p><input type="submit" id="auth_process" value="S’inscrire sur le serveur"></p>
+        </div>
+    </form>
+    <div id="clouds">
+        <div class="cloud x1"></div>
+        <div class="cloud x2"></div>
+        <div class="cloud x3"></div>
+        <div class="cloud x4"></div>
+        <div class="cloud x5"></div>
+    </div>
+</div>
+<div id="game">
+    <div id="hints"></div>
+    <div id="cards"></div>
+    <div id="big-alert"></div>
+    <div id="sidebar"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import url("constants.css");
+
+
+i.player-icon{
+    width: 1.45em;
+    height: 1.45em;
+    display: inline-flex;
+    margin-right: .15em !important;
+    margin-left: .15em !important;
+    vertical-align: middle;
+}
+
+i.player{
+    line-height: 1.1rem !important;
+}
+
+i.player-icon-F{
+    background: url(../images/icons/F.png);
+    background-size: cover;
+}
+
+i.player-icon-M{
+    background: url(../images/icons/M.png);
+    background-size: cover;
+}
+
+.jane {
+    color: var(--jane);
+}
+
+.jon {
+    color: var(--jon);
+}
+
+#players {
+    background-color: var(--a);
+    color: var(--A);
+    flex-direction: column;
+}
+
+#players > ul {
+    line-height: 1.5rem;
+}
+
+#players > ul > li{
+    transition: all 2s ease;
+}
+
+#players > ul > li.current {
+    font-weight: bolder;
+    font-size: larger;
+    white-space: nowrap;
+    border: .25rem outset var(--c);
+    padding: 0 1rem;
+    background: var(--b);
+}
+
+
+#players hr {
+    border-top: 0.1rem inset var(--a);
+}

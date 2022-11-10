@@ -1,0 +1,25 @@
+There is ghj (sex:F, ip:::ffff:127.0.0.1)
+There is oijh (sex:F, ip:::ffff:127.0.0.1)
+oijh a peur des fantômes.
+There is ghj (sex:F, ip:::ffff:127.0.0.1)
+There is oijh (sex:F, ip:::ffff:127.0.0.1)
+ghj a peur des fantômes.
+ghj <= commence son tour
+ghj <= 4,p
+ghj <= 7,b
+ghj <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+ghj <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+ghj <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+ghj <= 3,N,2
+ghj <= u
+ghj <= a terminé son tour
+oijh <= commence son tour
+oijh <= 2,b
+oijh <= 5,b
+oijh <= 6,W,4
+oijh <= u
+oijh <= a terminé son tour
+ghj <= commence son tour
+ghj <= 5,b
+ghj <= 10,r
+ghj <= 12,E,8

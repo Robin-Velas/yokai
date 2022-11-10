@@ -1,0 +1,23 @@
+.dark .button_class {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 2% 2% 2% 2%;
+    padding: 2% 2% 2% 2%;
+
+    color: #a9a9a9;
+    transition: 0.25s;
+}
+
+.dark .button_class:hover, .dark .button_class:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
+    transform: translateY(-0.25em);
+    border-color: #949494;
+    color : #ffffff;
+}
+
+.dark #cards, .dark #hints, .dark #sidebar {
+    background-color: #181818;
+}
+

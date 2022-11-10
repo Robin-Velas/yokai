@@ -1,0 +1,10 @@
+There is hjk (sex:F, ip:::ffff:127.0.0.1)
+There is oij (sex:F, ip:::ffff:127.0.0.1)
+oij a peur des fantômes.
+There is oij (sex:F, ip:::ffff:127.0.0.1)
+There is hjk (sex:F, ip:::ffff:127.0.0.1)
+hjk a peur des fantômes.
+oij <= commence son tour
+oij <= 3,p
+oij <= 8,g
+oij <= 7,E,12

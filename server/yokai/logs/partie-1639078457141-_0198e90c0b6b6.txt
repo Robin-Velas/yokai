@@ -1,0 +1,24 @@
+There is hj (sex:F, ip:::ffff:127.0.0.1)
+There is hui (sex:F, ip:::ffff:127.0.0.1)
+hui a peur des fantômes.
+There is hui (sex:F, ip:::ffff:127.0.0.1)
+There is hj (sex:F, ip:::ffff:127.0.0.1)
+There is hj (sex:F, ip:::ffff:127.0.0.1)
+There is hui (sex:F, ip:::ffff:127.0.0.1)
+hj a peur des fantômes.
+hj <= commence son tour
+hj <= commence son tour
+hj <= 3,b
+hj <= 3,b
+hj <= La carte sélectionnée est déjà révélée.
+hj <= La carte sélectionnée est déjà révélée.
+hj <= 4,r
+hj <= 4,r
+hj <= 7,E,8
+hj <= La carte doit être déplacée à coté d’une autre carte.
+hj <= La carte doit être déplacée à coté d’une autre carte.
+hj <= u
+hj <= a terminé son tour
+hui <= commence son tour
+hui <= 8,g
+hui <= 12,p

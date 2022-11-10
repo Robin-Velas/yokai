@@ -1,0 +1,20 @@
+There is Marie (sex:F, ip:::ffff:127.0.0.1)
+There is Sophie (sex:F, ip:::ffff:127.0.0.1)
+Sophie a peur des fantômes.
+There is Marie (sex:F, ip:::ffff:127.0.0.1)
+There is Sophie (sex:F, ip:::ffff:127.0.0.1)
+Marie a peur des fantômes.
+Marie <= commence son tour
+Marie <= 2,b
+Marie <= 3,g
+Marie <= 1,W,5
+Marie <= u
+Marie <= a terminé son tour
+Sophie <= commence son tour
+Sophie <= 1,b
+Sophie <= 5,g
+Sophie <= La carte doit être déplacée à coté d’une autre carte.
+Sophie <= 1,W,2
+Sophie <= b,1
+Sophie <= a terminé son tour
+Marie <= commence son tour

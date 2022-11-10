@@ -1,0 +1,15 @@
+There is marie (sex:F, ip:::1)
+There is sophie (sex:F, ip:::1)
+sophie a peur des fantômes.
+There is sophie (sex:F, ip:::1)
+There is marie (sex:F, ip:::1)
+marie a peur des fantômes.
+sophie <= commence son tour
+sophie <= 4,r
+sophie <= 3,r
+sophie <= 2,E,8
+sophie <= u
+sophie <= a terminé son tour
+marie <= commence son tour
+marie <= 8,b
+marie <= 2,p

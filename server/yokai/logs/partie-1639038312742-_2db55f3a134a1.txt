@@ -1,0 +1,7 @@
+There is lol (sex:F, ip:::ffff:127.0.0.1)
+There is kkk (sex:F, ip:::ffff:127.0.0.1)
+kkk a peur des fantômes.
+There is kkk (sex:F, ip:::ffff:127.0.0.1)
+There is lol (sex:F, ip:::ffff:127.0.0.1)
+lol a peur des fantômes.
+kkk <= commence son tour

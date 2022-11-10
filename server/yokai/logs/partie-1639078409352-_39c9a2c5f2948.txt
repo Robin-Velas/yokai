@@ -1,0 +1,10 @@
+There is hello (sex:F, ip:::ffff:127.0.0.1)
+There is Bilou (sex:M, ip:::ffff:127.0.0.1)
+Bilou a peur des fantômes.
+There is Bilou (sex:M, ip:::ffff:127.0.0.1)
+There is hello (sex:F, ip:::ffff:127.0.0.1)
+There is hello (sex:F, ip:::ffff:127.0.0.1)
+There is Bilou (sex:M, ip:::ffff:127.0.0.1)
+hello a peur des fantômes.
+hello <= commence son tour
+hello <= commence son tour

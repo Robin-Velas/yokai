@@ -1,0 +1,14 @@
+There is hjk (sex:F, ip:::ffff:127.0.0.1)
+There is tyui (sex:F, ip:::ffff:127.0.0.1)
+hjk a peur des fantômes.
+There is hjk (sex:F, ip:::ffff:127.0.0.1)
+There is tyui (sex:F, ip:::ffff:127.0.0.1)
+hjk <= commence son tour
+hjk <= 7,b
+hjk <= 12,r
+hjk <= 8,E,4
+hjk <= u
+hjk <= a terminé son tour
+tyui <= commence son tour
+tyui <= 7,b
+tyui <= 4,g

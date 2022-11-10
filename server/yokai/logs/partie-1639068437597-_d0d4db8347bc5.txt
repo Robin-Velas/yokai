@@ -1,0 +1,16 @@
+There is a (sex:F, ip:::ffff:127.0.0.1)
+There is b (sex:F, ip:::1)
+b a peur des fantômes.
+There is a (sex:F, ip:::ffff:127.0.0.1)
+There is b (sex:F, ip:::1)
+a a peur des fantômes.
+a <= commence son tour
+a <= 2,p
+a <= 3,g
+a <= 4,E,8
+a <= u
+a <= a terminé son tour
+b <= commence son tour
+b <= 9,b
+b <= 10,p
+b <= 3,E,3

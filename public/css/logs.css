@@ -1,0 +1,34 @@
+@import url("constants.css");
+
+#logs {
+    background-color: var(--c);
+    color: var(--C);
+    font: message-box;
+}
+#logs > ul {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#logs > ul > li:not(:last-child) {
+    border-top: .05rem inset var(--b);
+}
+
+#logs > ul > li:nth-last-of-type(n+11) {
+    display: none;
+}
+
+#logs > ul > li > span {
+    color: var(--D);
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+#emoji button {
+    margin: 2%;
+}
+#emoji {
+    background-color: paleturquoise;
+    text-align: center;
+    padding: 2% 0 2% 0;
+}

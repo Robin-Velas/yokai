@@ -1,0 +1,47 @@
+There is yujk (sex:F, ip:::ffff:127.0.0.1)
+There is hjkl (sex:F, ip:::ffff:127.0.0.1)
+hjkl a peur des fantômes.
+There is hjkl (sex:F, ip:::ffff:127.0.0.1)
+There is yujk (sex:F, ip:::ffff:127.0.0.1)
+yujk a peur des fantômes.
+hjkl <= commence son tour
+hjkl <= 2,b
+hjkl <= 4,b
+hjkl <= 3,E,8
+hjkl <= u
+hjkl <= a terminé son tour
+yujk <= commence son tour
+yujk <= 6,p
+yujk <= 7,g
+yujk <= 7,E,16
+yujk <= g,7
+yujk <= a terminé son tour
+hjkl <= commence son tour
+hjkl <= 16,r
+hjkl <= 12,b
+hjkl <= 16,E,12
+hjkl <= u
+hjkl <= a terminé son tour
+yujk <= commence son tour
+yujk <= Les cartes sous un indice ne peuvent plus être retournées ou déplacées.
+yujk <= Les cartes sous un indice ne peuvent plus être retournées ou déplacées.
+yujk <= Les cartes sous un indice ne peuvent plus être retournées ou déplacées.
+yujk <= 16,r
+yujk <= 12,b
+yujk <= La carte est sous un indice, elle ne doit plus être déplacée.
+yujk <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+yujk <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+yujk <= 3,E,4
+yujk <= u
+yujk <= a terminé son tour
+hjkl <= commence son tour
+hjkl <= 4,b
+hjkl <= 3,p
+hjkl <= Ce déplacement séparerait les cartes en deux groupes non reliés par un de leur bord, c’est interdit.
+hjkl <= 8,E,8
+hjkl <= u
+hjkl <= a terminé son tour
+yujk <= commence son tour
+yujk <= 2,b
+yujk <= 6,p
+yujk <= 6,E,6

@@ -1,0 +1,33 @@
+There is lol (sex:F, ip:::ffff:127.0.0.1)
+There is ook (sex:F, ip:::ffff:127.0.0.1)
+lol a peur des fantômes.
+Le move est 1 et 1
+lol <= commence son tour
+lol <= 1,r
+lol <= 2,g
+lol <= 5,W,1
+lol <= u
+lol <= a terminé son tour
+Le move est 2 et 1
+ook <= commence son tour
+ook <= 2,g
+ook <= 3,p
+ook <= 5,W,6
+ook <= u
+ook <= a terminé son tour
+Le move est 3 et 2
+lol <= commence son tour
+lol <= 2,g
+lol <= 6,g
+lol <= 2,W,5
+lol <= rb,1
+lol <= a terminé son tour
+Le move est 4 et 2
+ook <= commence son tour
+ook <= 5,g
+ook <= 6,g
+ook <= 2,W,3
+ook <= u
+ook <= a terminé son tour
+Le move est 5 et 3
+lol <= commence son tour

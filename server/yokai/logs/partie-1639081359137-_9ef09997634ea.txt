@@ -1,0 +1,13 @@
+There is uik (sex:F, ip:::ffff:127.0.0.1)
+There is oijh (sex:F, ip:::ffff:127.0.0.1)
+oijh a peur des fantômes.
+There is uik (sex:F, ip:::ffff:127.0.0.1)
+There is oijh (sex:F, ip:::ffff:127.0.0.1)
+uik a peur des fantômes.
+uik <= commence son tour
+uik <= 3,g
+uik <= 8,r
+uik <= 7,E,12
+uik <= u
+uik <= a terminé son tour
+oijh <= commence son tour

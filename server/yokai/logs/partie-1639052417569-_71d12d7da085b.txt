@@ -1,0 +1,7 @@
+There is kk (sex:F, ip:::ffff:127.0.0.1)
+There is lol (sex:F, ip:::ffff:127.0.0.1)
+lol a peur des fantômes.
+kk <= commence son tour
+kk <= 2,p
+kk <= 3,b
+kk <= 1,N,3

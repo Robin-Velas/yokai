@@ -1,0 +1,65 @@
+@import url("constants.css");
+
+#game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#hints,
+#cards,
+#sidebar {
+    background-color: ghostwhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 5vh 10vh -1vh inset, rgba(0, 0, 0, 0.3) 0 2vh 4vh -2vh inset;
+}
+
+#hints {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8vw;
+    height: 100vh;
+    overflow: visible;
+    z-index: 3;
+}
+
+#cards {
+    position: absolute;
+    top: 0;
+    left: 8vw;
+    width: 67vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    left: 75vw;
+    width: 25vw;
+    height: 100vh;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    word-break: break-word;
+    z-index: 1;
+}
+
+#big-alert {
+    position: absolute;
+    bottom: 0;
+    left: 10vw;
+    width: 63vw;
+    height: 8.5vh;
+    overflow: hidden;
+    z-index: 4;
+    font-size: 3vh;
+    text-align: center;
+    text-shadow: .25vh .25vh .25vh rgba(0, 0, 0, .3), .15vh .15vh .15vh rgba(0, 250, 250, .3);
+    color: #222;
+    line-height: 4vh;
+    pointer-events: none;
+}
